@@ -1,12 +1,15 @@
 {
-  "name": "@cycan-libs/eslint-config-cycan",
+  "name": "@cycan/eslint-config-cycan",
   "version": "1.0.0",
   "description": "Eslint config for Cycan",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "git@github.com:CycanTech/eslint-config-cycan.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CycanTech/eslint-config-cycan.git"
+  },
   "license": "MIT",
   "author": "YunhongYu",
   "private": false,
@@ -27,5 +30,15 @@
   "peerDependencies": {
     "eslint": "^7.2.0",
     "prettier": "^2.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/CycanTech/eslint-config-cycan/issues"
+  },
+  "homepage": "https://github.com/CycanTech/eslint-config-cycan#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
