@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap-libs/eslint-config-pancake",
+  "name": "@cycan-libs/eslint-config-cycan",
   "version": "1.0.0",
-  "description": "Eslint config for PancakeSwap",
+  "description": "Eslint config for Cycan",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "git@github.com:pancakeswap/eslint-config-pancake.git",
+  "repository": "git@github.com:CycanTech/eslint-config-cycan.git",
   "license": "MIT",
-  "author": "RabbitDoge",
+  "author": "YunhongYu",
   "private": false,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",
