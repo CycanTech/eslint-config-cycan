@@ -9,7 +9,7 @@ Cycan Eslint config with:
 ## Usage
 
 ```
-npx install-peerdeps --dev @cycan-libs/eslint-config-cycan
+npx install-peerdeps --dev @cycan/eslint-config-cycan
 ```
 
-Add `"extends": "@cycan-libs/eslint-config-cycan"` to your eslint config file.
+Add `"extends": "@cycan/eslint-config-cycan"` to your eslint config file.
